@@ -1,0 +1,4 @@
+# C# ASP.NET app : JokesWebAPP (BlaguesWebApp)
+
+Une app web qui permet la création et l'affichage de blagues sous formes de questions et de réponses. Avec une organisation CRUD (Create, Read, Update, Delete). Il y a un système d'authentification et de compte et une base de données géré avec Entity FrameworkCore.
+La page créer une blague ne peut pas être vu par les utilisateurs non autorisés. Le système d'authentification ne laisse personne créer, modifier, supprimer une blague à moins qu’ils n’aient été autorisés et la même chose pour la méthode post, nous ne voulons laisser personne éditer une blague et l’envoyer dans la base de données à condition d'être connecté et authentifier avec un compte sur l'application web. Lorsque l'on est pas connecté on peut tout de même voir la blague en premier temps sans la réponse et afficher les détails pour voir cette la question et la réponse.
